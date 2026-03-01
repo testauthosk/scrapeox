@@ -59,7 +59,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-ox-border pt-8 text-center text-xs text-ox-muted">
+        <div className="mt-8 border-t border-ox-border pt-8 pb-4 text-center text-xs text-ox-muted">
           © {new Date().getFullYear()} Scrapeox. All rights reserved.
         </div>
       </div>

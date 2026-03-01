@@ -36,7 +36,7 @@ export function HowItWorks() {
           {steps.map((step, i) => (
             <div
               key={step.num}
-              className="flex gap-6 rounded-2xl border border-ox-border bg-ox-card/30 p-8 md:items-center"
+              className="flex flex-col gap-4 rounded-2xl border border-ox-border bg-ox-card/30 p-6 sm:flex-row sm:gap-6 sm:p-8 md:items-center"
             >
               <div className="flex-shrink-0">
                 <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-ox-accent/10 font-mono text-xl font-bold text-ox-accent">
@@ -48,7 +48,7 @@ export function HowItWorks() {
                   {step.title}
                 </h3>
                 <p className="mb-3 text-sm text-ox-muted">{step.description}</p>
-                <code className="inline-block rounded-lg bg-ox-dark px-4 py-2 font-mono text-xs text-ox-accent">
+                <code className="block rounded-lg bg-ox-dark px-4 py-2 font-mono text-xs text-ox-accent break-all whitespace-pre-wrap">
                   {step.code}
                 </code>
               </div>

@@ -5,7 +5,7 @@ export function Hero() {
       <div className="grid-bg absolute inset-0" />
 
       {/* Gradient orb */}
-      <div className="absolute top-20 left-1/2 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-ox-accent/5 blur-[120px]" />
+      <div className="absolute top-20 left-1/2 h-[500px] w-[min(800px,100vw)] -translate-x-1/2 rounded-full bg-ox-accent/5 blur-[120px]" />
 
       <div className="relative mx-auto max-w-5xl px-6 text-center">
         {/* Badge */}

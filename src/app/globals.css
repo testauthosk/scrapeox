@@ -20,11 +20,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--color-ox-black);
   color: var(--color-ox-text);
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 ::selection {

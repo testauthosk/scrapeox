@@ -12,7 +12,7 @@ export function CodeExample() {
         </div>
 
         {/* Code block */}
-        <div className="code-block glow-orange">
+        <div className="code-block glow-orange overflow-hidden">
           <div className="code-header">
             <div className="code-dot bg-[#ff5f57]" />
             <div className="code-dot bg-[#ffbd2e]" />
